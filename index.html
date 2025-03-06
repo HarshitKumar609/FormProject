@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ragistration</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+    <h1>ragistration</h1>
+        <form action="#" method="post">
+            <h2>personal details</h2>
+            
+            <label for="name">name</label>
+            <input type="text" id="name" name="name"placeholder="enter your name">
+
+            <label for="father name"> father name</label>
+            <input type="text" id="father name" name="father name"placeholder="enter your father name">
+
+            <label for="mother name">mother name</label>
+            <input type="text" id="mother name" name="mother name"placeholder="enter your mother name">
+           
+            <label for="DOB">DOB</label>
+            <input type="date">
+
+           <label for="gender">gender</label>
+            <select name="gender" id="gender">
+            <option value="">select gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+        </select>
+
+        <label for="phone">phone</label>
+        <input type="tel"id="phone"name="phone"placeholder="phone">
+
+        <label for="email">email</label>
+        <input type="email"id="email"name="email"placeholder="email">
+
+        <label for="">course</label>
+        <select name="course" id="course">
+            <option value="">course</option>
+            <option value="BBA">BBA</option>
+            <option value="BCA">BCA</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+        </select>
+
+        <h2>address details</h2>
+
+        <label for="state">state</label>
+        <select name="state" id="state">
+            <option value="">select state</option>
+            <option value="Bihar">Bihar</option>
+        </select>
+
+        <label for="city">city</label>
+        <select name="city" id="city">
+            <option value="">city</option>
+            <option value="Patna">Patna</option>
+            <option value="gaya">gaya</option>     
+             <option value="nalanda">nalanda</option>
+             <option value="aara">aara</option>
+        </select>
+
+        <label for="pincode">pincode</label>
+        <input type="text" placeholder="enter 6-digit pincode">
+
+        <label for="Area">Area</label>
+        <textarea name="area" id="area"placeholder="enter your area detail"></textarea>
+
+        <div class="btnContainer">
+            <button type="submit"name="submit">Submit</button>
+            <button type="submit"name="submit">Reset</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
